@@ -1,0 +1,1065 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380315CF22C2641000E4FA26 /* vst2_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 380315CD22C2641000E4FA26 /* vst2_interface.cpp */; };
+		380315D022C2641000E4FA26 /* vst2_interface.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 380315CE22C2641000E4FA26 /* vst2_interface.hpp */; };
+		3808853C21D3F95900E2CCFB /* VSTUnitTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3808853B21D3F95900E2CCFB /* VSTUnitTest.mm */; };
+		3808853E21D3F95900E2CCFB /* libvst23host in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A1C4AF21C8720A00587F4A /* libvst23host */; };
+		3808855221D5378E00E2CCFB /* vst3host.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3808855021D5378E00E2CCFB /* vst3host.cpp */; };
+		3808855321D5378E00E2CCFB /* vst3host.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3808855121D5378E00E2CCFB /* vst3host.hpp */; };
+		380E5F9C21FF591D009250A1 /* miditovst.h in Headers */ = {isa = PBXBuildFile; fileRef = 380E5F9B21FF591D009250A1 /* miditovst.h */; };
+		380E5FE3220A50DE009250A1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E5FDF2209D791009250A1 /* AppKit.framework */; };
+		380E5FE5220A560C009250A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E5FE4220A560B009250A1 /* Cocoa.framework */; };
+		380E5FEE220B45F2009250A1 /* vstplayertestapp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 380E5FED220B45F2009250A1 /* vstplayertestapp.cpp */; };
+		380E5FF8220F3A42009250A1 /* libvst23host in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A1C4AF21C8720A00587F4A /* libvst23host */; };
+		380E5FFC22107A4D009250A1 /* window.mm in Sources */ = {isa = PBXBuildFile; fileRef = 380E5FE12209E859009250A1 /* window.mm */; };
+		380E5FFE2211CC0C009250A1 /* abstractwindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 380E5FFD2211CC0C009250A1 /* abstractwindow.h */; };
+		380E60002211CD3A009250A1 /* abstractwindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 380E5FFF2211CD3A009250A1 /* abstractwindow.mm */; };
+		380E600122130B74009250A1 /* platform.mm in Sources */ = {isa = PBXBuildFile; fileRef = 380E5FD92207AD7A009250A1 /* platform.mm */; };
+		384C57B42305A744008608AF /* vst3hosting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3877AEB922EDFA75005B9CD9 /* vst3hosting.cpp */; };
+		386032842315775400AD322D /* vst3eventstructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 386032832315775400AD322D /* vst3eventstructures.h */; };
+		386032852316D0A300AD322D /* windowcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382928E821ECF9C6001475A6 /* windowcontroller.cpp */; };
+		386B94012285C4F5002ABD83 /* vst3_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 386B93FF2285C4F5002ABD83 /* vst3_interface.cpp */; };
+		386B94022285C4F5002ABD83 /* vst3_interface.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 386B94002285C4F5002ABD83 /* vst3_interface.hpp */; };
+		3877AEBC22EDFA75005B9CD9 /* vst3hosting.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3877AEBA22EDFA75005B9CD9 /* vst3hosting.hpp */; };
+		3877AEC022EFA5A4005B9CD9 /* vst3hosting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3877AEBF22EFA5A4005B9CD9 /* vst3hosting.mm */; };
+		3881DBDF21EE25F7008A0AC5 /* usediids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3881DBDE21EE25F7008A0AC5 /* usediids.cpp */; };
+		38A1C4CD21C8748600587F4A /* vst2host.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38A1C4CC21C8748600587F4A /* vst2host.cpp */; };
+		38A1C4CF21C8748C00587F4A /* vst2host.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A1C4CE21C8748C00587F4A /* vst2host.h */; };
+		38A1C4DC21C8759500587F4A /* midievent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38A1C4DA21C8759500587F4A /* midievent.cpp */; };
+		38A1C4DD21C8759500587F4A /* midievent.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A1C4DB21C8759500587F4A /* midievent.h */; };
+		38A1C4E621C8777000587F4A /* vst_objc_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A1C4DF21C8777000587F4A /* vst_objc_interface.h */; };
+		38A1C4E721C8777000587F4A /* edit_window_delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1C4E021C8777000587F4A /* edit_window_delegate.m */; };
+		38A1C4EA21C8777000587F4A /* vst_objc_interface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38A1C4E321C8777000587F4A /* vst_objc_interface.mm */; };
+		38A1C4EB21C8777000587F4A /* edit_window_delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A1C4E421C8777000587F4A /* edit_window_delegate.h */; };
+		38B6726B23103AB000780619 /* hostutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B6726A23103AB000780619 /* hostutil.h */; };
+		38E809F721E63E400099AA89 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E809F621E63E400099AA89 /* CoreFoundation.framework */; };
+		38E809F821E63E610099AA89 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E809F621E63E400099AA89 /* CoreFoundation.framework */; };
+		38F8847E221DA5560006BA4E /* miditovst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38F8847D221DA5560006BA4E /* miditovst.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3808853F21D3F95900E2CCFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A1C4A721C8720A00587F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A1C4AE21C8720A00587F4A;
+			remoteInfo = vstplayer;
+		};
+		380E5FDC2208A24C009250A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A1C4A721C8720A00587F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A1C4AE21C8720A00587F4A;
+			remoteInfo = vstplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380315CD22C2641000E4FA26 /* vst2_interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vst2_interface.cpp; sourceTree = "<group>"; };
+		380315CE22C2641000E4FA26 /* vst2_interface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vst2_interface.hpp; sourceTree = "<group>"; };
+		3808853921D3F95900E2CCFB /* VSTUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3808853B21D3F95900E2CCFB /* VSTUnitTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VSTUnitTest.mm; sourceTree = "<group>"; };
+		3808853D21D3F95900E2CCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3808855021D5378E00E2CCFB /* vst3host.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vst3host.cpp; sourceTree = "<group>"; };
+		3808855121D5378E00E2CCFB /* vst3host.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vst3host.hpp; sourceTree = "<group>"; };
+		380E5F9B21FF591D009250A1 /* miditovst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = miditovst.h; sourceTree = "<group>"; };
+		380E5FA422074C96009250A1 /* vst23host_test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vst23host_test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380E5FA922074C98009250A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		380E5FAC22074C98009250A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		380E5FAE22074C98009250A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380E5FB122074C98009250A1 /* vstplayer_test_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vstplayer_test_app.entitlements; sourceTree = "<group>"; };
+		380E5FD72207AD7A009250A1 /* iwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iwindow.h; sourceTree = "<group>"; };
+		380E5FD82207AD7A009250A1 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		380E5FD92207AD7A009250A1 /* platform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = platform.mm; sourceTree = "<group>"; };
+		380E5FDA2207AD7A009250A1 /* iplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iplatform.h; sourceTree = "<group>"; };
+		380E5FDE22090B5F009250A1 /* iapplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iapplication.h; sourceTree = "<group>"; };
+		380E5FDF2209D791009250A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		380E5FE12209E859009250A1 /* window.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = window.mm; sourceTree = "<group>"; };
+		380E5FE4220A560B009250A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		380E5FE9220A5873009250A1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		380E5FEB220B4437009250A1 /* vstplayertestapp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vstplayertestapp.h; sourceTree = "<group>"; };
+		380E5FED220B45F2009250A1 /* vstplayertestapp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vstplayertestapp.cpp; sourceTree = "<group>"; };
+		380E5FEF220C74B2009250A1 /* appinit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appinit.h; sourceTree = "<group>"; };
+		380E5FFD2211CC0C009250A1 /* abstractwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abstractwindow.h; sourceTree = "<group>"; };
+		380E5FFF2211CD3A009250A1 /* abstractwindow.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = abstractwindow.mm; sourceTree = "<group>"; };
+		382928E721ECF5C9001475A6 /* windowcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windowcontroller.h; sourceTree = "<group>"; };
+		382928E821ECF9C6001475A6 /* windowcontroller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = windowcontroller.cpp; sourceTree = "<group>"; };
+		386032832315775400AD322D /* vst3eventstructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vst3eventstructures.h; sourceTree = "<group>"; };
+		386B93FF2285C4F5002ABD83 /* vst3_interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vst3_interface.cpp; sourceTree = "<group>"; };
+		386B94002285C4F5002ABD83 /* vst3_interface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vst3_interface.hpp; sourceTree = "<group>"; };
+		386B94032285CD99002ABD83 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+		38734087224D55080006C1C1 /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		3877AEB922EDFA75005B9CD9 /* vst3hosting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vst3hosting.cpp; sourceTree = "<group>"; };
+		3877AEBA22EDFA75005B9CD9 /* vst3hosting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vst3hosting.hpp; sourceTree = "<group>"; };
+		3877AEBF22EFA5A4005B9CD9 /* vst3hosting.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = vst3hosting.mm; sourceTree = "<group>"; };
+		3881DBDE21EE25F7008A0AC5 /* usediids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usediids.cpp; sourceTree = "<group>"; };
+		38A1C4AF21C8720A00587F4A /* libvst23host */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libvst23host; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A1C4CC21C8748600587F4A /* vst2host.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vst2host.cpp; sourceTree = "<group>"; };
+		38A1C4CE21C8748C00587F4A /* vst2host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vst2host.h; sourceTree = "<group>"; };
+		38A1C4DA21C8759500587F4A /* midievent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = midievent.cpp; sourceTree = "<group>"; };
+		38A1C4DB21C8759500587F4A /* midievent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = midievent.h; sourceTree = "<group>"; };
+		38A1C4DF21C8777000587F4A /* vst_objc_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vst_objc_interface.h; path = objc/vst_objc_interface.h; sourceTree = SOURCE_ROOT; };
+		38A1C4E021C8777000587F4A /* edit_window_delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = edit_window_delegate.m; path = objc/edit_window_delegate.m; sourceTree = SOURCE_ROOT; };
+		38A1C4E321C8777000587F4A /* vst_objc_interface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = vst_objc_interface.mm; path = objc/vst_objc_interface.mm; sourceTree = SOURCE_ROOT; };
+		38A1C4E421C8777000587F4A /* edit_window_delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = edit_window_delegate.h; path = objc/edit_window_delegate.h; sourceTree = SOURCE_ROOT; };
+		38B6726A23103AB000780619 /* hostutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hostutil.h; sourceTree = "<group>"; };
+		38E809F621E63E400099AA89 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		38F8847D221DA5560006BA4E /* miditovst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = miditovst.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3808853621D3F95900E2CCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E809F821E63E610099AA89 /* CoreFoundation.framework in Frameworks */,
+				3808853E21D3F95900E2CCFB /* libvst23host in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E5FA122074C96009250A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380E5FF8220F3A42009250A1 /* libvst23host in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A1C4AD21C8720A00587F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380E5FE5220A560C009250A1 /* Cocoa.framework in Frameworks */,
+				380E5FE3220A50DE009250A1 /* AppKit.framework in Frameworks */,
+				38E809F721E63E400099AA89 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3808853A21D3F95900E2CCFB /* VSTUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				3808853B21D3F95900E2CCFB /* VSTUnitTest.mm */,
+				3808853D21D3F95900E2CCFB /* Info.plist */,
+			);
+			path = VSTUnitTest;
+			sourceTree = "<group>";
+		};
+		380E5FA522074C96009250A1 /* vst23host_test_app */ = {
+			isa = PBXGroup;
+			children = (
+				380E5FEF220C74B2009250A1 /* appinit.h */,
+				380E5FDE22090B5F009250A1 /* iapplication.h */,
+				380E5FDA2207AD7A009250A1 /* iplatform.h */,
+				38734087224D55080006C1C1 /* platform.h */,
+				380E5FD92207AD7A009250A1 /* platform.mm */,
+				380E5FA922074C98009250A1 /* Assets.xcassets */,
+				380E5FAB22074C98009250A1 /* MainMenu.xib */,
+				380E5FAE22074C98009250A1 /* Info.plist */,
+				380E5FB122074C98009250A1 /* vstplayer_test_app.entitlements */,
+				380E5FEB220B4437009250A1 /* vstplayertestapp.h */,
+				380E5FED220B45F2009250A1 /* vstplayertestapp.cpp */,
+			);
+			path = vst23host_test_app;
+			sourceTree = "<group>";
+		};
+		386B93FE2285C465002ABD83 /* python_interface */ = {
+			isa = PBXGroup;
+			children = (
+				386B93FF2285C4F5002ABD83 /* vst3_interface.cpp */,
+				386B94002285C4F5002ABD83 /* vst3_interface.hpp */,
+				380315CD22C2641000E4FA26 /* vst2_interface.cpp */,
+				380315CE22C2641000E4FA26 /* vst2_interface.hpp */,
+			);
+			path = python_interface;
+			sourceTree = "<group>";
+		};
+		38946AF721D67226007BF9BF /* vst3 */ = {
+			isa = PBXGroup;
+			children = (
+				3877AEB922EDFA75005B9CD9 /* vst3hosting.cpp */,
+				3877AEBA22EDFA75005B9CD9 /* vst3hosting.hpp */,
+				3877AEBF22EFA5A4005B9CD9 /* vst3hosting.mm */,
+			);
+			path = vst3;
+			sourceTree = "<group>";
+		};
+		38A1C4A621C8720A00587F4A = {
+			isa = PBXGroup;
+			children = (
+				386B93FE2285C465002ABD83 /* python_interface */,
+				38946AF721D67226007BF9BF /* vst3 */,
+				38A1C4DE21C8772700587F4A /* objc */,
+				38A1C4B121C8720A00587F4A /* vst23host */,
+				3808853A21D3F95900E2CCFB /* VSTUnitTest */,
+				380E5FA522074C96009250A1 /* vst23host_test_app */,
+				38A1C4B021C8720A00587F4A /* Products */,
+				38E809F521E63E400099AA89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38A1C4B021C8720A00587F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A1C4AF21C8720A00587F4A /* libvst23host */,
+				3808853921D3F95900E2CCFB /* VSTUnitTest.xctest */,
+				380E5FA422074C96009250A1 /* vst23host_test_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A1C4B121C8720A00587F4A /* vst23host */ = {
+			isa = PBXGroup;
+			children = (
+				380E5FFD2211CC0C009250A1 /* abstractwindow.h */,
+				380E5FFF2211CD3A009250A1 /* abstractwindow.mm */,
+				380E5FD72207AD7A009250A1 /* iwindow.h */,
+				380E5FD82207AD7A009250A1 /* window.h */,
+				380E5FE12209E859009250A1 /* window.mm */,
+				3881DBDE21EE25F7008A0AC5 /* usediids.cpp */,
+				38A1C4DB21C8759500587F4A /* midievent.h */,
+				38A1C4DA21C8759500587F4A /* midievent.cpp */,
+				38A1C4CE21C8748C00587F4A /* vst2host.h */,
+				38A1C4CC21C8748600587F4A /* vst2host.cpp */,
+				386032832315775400AD322D /* vst3eventstructures.h */,
+				3808855121D5378E00E2CCFB /* vst3host.hpp */,
+				3808855021D5378E00E2CCFB /* vst3host.cpp */,
+				382928E721ECF5C9001475A6 /* windowcontroller.h */,
+				382928E821ECF9C6001475A6 /* windowcontroller.cpp */,
+				380E5F9B21FF591D009250A1 /* miditovst.h */,
+				38F8847D221DA5560006BA4E /* miditovst.cpp */,
+				38B6726A23103AB000780619 /* hostutil.h */,
+			);
+			path = vst23host;
+			sourceTree = "<group>";
+		};
+		38A1C4DE21C8772700587F4A /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				38A1C4E421C8777000587F4A /* edit_window_delegate.h */,
+				38A1C4E021C8777000587F4A /* edit_window_delegate.m */,
+				38A1C4DF21C8777000587F4A /* vst_objc_interface.h */,
+				38A1C4E321C8777000587F4A /* vst_objc_interface.mm */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
+		38E809F521E63E400099AA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				386B94032285CD99002ABD83 /* Python.framework */,
+				380E5FE9220A5873009250A1 /* Security.framework */,
+				380E5FE4220A560B009250A1 /* Cocoa.framework */,
+				380E5FDF2209D791009250A1 /* AppKit.framework */,
+				38E809F621E63E400099AA89 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38A1C4AB21C8720A00587F4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380315D022C2641000E4FA26 /* vst2_interface.hpp in Headers */,
+				38B6726B23103AB000780619 /* hostutil.h in Headers */,
+				38A1C4CF21C8748C00587F4A /* vst2host.h in Headers */,
+				380E5F9C21FF591D009250A1 /* miditovst.h in Headers */,
+				3877AEBC22EDFA75005B9CD9 /* vst3hosting.hpp in Headers */,
+				38A1C4E621C8777000587F4A /* vst_objc_interface.h in Headers */,
+				386032842315775400AD322D /* vst3eventstructures.h in Headers */,
+				38A1C4DD21C8759500587F4A /* midievent.h in Headers */,
+				380E5FFE2211CC0C009250A1 /* abstractwindow.h in Headers */,
+				3808855321D5378E00E2CCFB /* vst3host.hpp in Headers */,
+				386B94022285C4F5002ABD83 /* vst3_interface.hpp in Headers */,
+				38A1C4EB21C8777000587F4A /* edit_window_delegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3808853821D3F95900E2CCFB /* VSTUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3808854321D3F95900E2CCFB /* Build configuration list for PBXNativeTarget "VSTUnitTest" */;
+			buildPhases = (
+				3808853521D3F95900E2CCFB /* Sources */,
+				3808853621D3F95900E2CCFB /* Frameworks */,
+				3808853721D3F95900E2CCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3808854021D3F95900E2CCFB /* PBXTargetDependency */,
+			);
+			name = VSTUnitTest;
+			productName = VSTUnitTest;
+			productReference = 3808853921D3F95900E2CCFB /* VSTUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		380E5FA322074C96009250A1 /* vst23host_test_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380E5FC822074C98009250A1 /* Build configuration list for PBXNativeTarget "vst23host_test_app" */;
+			buildPhases = (
+				380E5FA022074C96009250A1 /* Sources */,
+				380E5FA122074C96009250A1 /* Frameworks */,
+				380E5FA222074C96009250A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380E5FDD2208A24C009250A1 /* PBXTargetDependency */,
+			);
+			name = vst23host_test_app;
+			productName = vstplayer_test_app;
+			productReference = 380E5FA422074C96009250A1 /* vst23host_test_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38A1C4AE21C8720A00587F4A /* vst23host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A1C4B821C8720A00587F4A /* Build configuration list for PBXNativeTarget "vst23host" */;
+			buildPhases = (
+				38A1C4AB21C8720A00587F4A /* Headers */,
+				38A1C4AC21C8720A00587F4A /* Sources */,
+				38A1C4AD21C8720A00587F4A /* Frameworks */,
+				386B93FD2285C2E3002ABD83 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vst23host;
+			productName = vstplayer;
+			productReference = 38A1C4AF21C8720A00587F4A /* libvst23host */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38A1C4A721C8720A00587F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Pazel;
+				TargetAttributes = {
+					3808853821D3F95900E2CCFB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					380E5FA322074C96009250A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					38A1C4AE21C8720A00587F4A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 38A1C4AA21C8720A00587F4A /* Build configuration list for PBXProject "vst23host" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38A1C4A621C8720A00587F4A;
+			productRefGroup = 38A1C4B021C8720A00587F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A1C4AE21C8720A00587F4A /* vst23host */,
+				3808853821D3F95900E2CCFB /* VSTUnitTest */,
+				380E5FA322074C96009250A1 /* vst23host_test_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3808853721D3F95900E2CCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E5FA222074C96009250A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		386B93FD2285C2E3002ABD83 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp ${TARGET_BUILD_DIR}/libvst23host /Users/dpazel/PycharmProjects/python_calling_objc_swift/lib/\ncp ${TARGET_BUILD_DIR}/libvst23host /Users/dpazel/PycharmProjects/music_rep_melody/vstinterface/lib/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3808853521D3F95900E2CCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3808853C21D3F95900E2CCFB /* VSTUnitTest.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E5FA022074C96009250A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380E600122130B74009250A1 /* platform.mm in Sources */,
+				380E5FEE220B45F2009250A1 /* vstplayertestapp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A1C4AC21C8720A00587F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386032852316D0A300AD322D /* windowcontroller.cpp in Sources */,
+				384C57B42305A744008608AF /* vst3hosting.cpp in Sources */,
+				3877AEC022EFA5A4005B9CD9 /* vst3hosting.mm in Sources */,
+				380E5FFC22107A4D009250A1 /* window.mm in Sources */,
+				386B94012285C4F5002ABD83 /* vst3_interface.cpp in Sources */,
+				38F8847E221DA5560006BA4E /* miditovst.cpp in Sources */,
+				38A1C4CD21C8748600587F4A /* vst2host.cpp in Sources */,
+				380315CF22C2641000E4FA26 /* vst2_interface.cpp in Sources */,
+				3808855221D5378E00E2CCFB /* vst3host.cpp in Sources */,
+				380E60002211CD3A009250A1 /* abstractwindow.mm in Sources */,
+				38A1C4E721C8777000587F4A /* edit_window_delegate.m in Sources */,
+				3881DBDF21EE25F7008A0AC5 /* usediids.cpp in Sources */,
+				38A1C4DC21C8759500587F4A /* midievent.cpp in Sources */,
+				38A1C4EA21C8777000587F4A /* vst_objc_interface.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3808854021D3F95900E2CCFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A1C4AE21C8720A00587F4A /* vst23host */;
+			targetProxy = 3808853F21D3F95900E2CCFB /* PBXContainerItemProxy */;
+		};
+		380E5FDD2208A24C009250A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A1C4AE21C8720A00587F4A /* vst23host */;
+			targetProxy = 380E5FDC2208A24C009250A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		380E5FAB22074C98009250A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380E5FAC22074C98009250A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3808854121D3F95900E2CCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
+				INFOPLIST_FILE = VSTUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libbase.a,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Pazel.VSTUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+					"$(VST2_SDK_PATH_PUBLIC)",
+				);
+			};
+			name = Debug;
+		};
+		3808854221D3F95900E2CCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
+				INFOPLIST_FILE = VSTUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libbase.a,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Pazel.VSTUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+					"$(VST2_SDK_PATH_PUBLIC)",
+				);
+			};
+			name = Release;
+		};
+		380E5FC922074C98009250A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = NO;
+				EXECUTABLE_SUFFIX = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = /Users/dpazel/opensource/vst3git/vst3sdk;
+				INFOPLIST_FILE = vst23host_test_app/Info.plist;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fvisibility=hidden",
+					"'-DDEVELOPMENT=1'",
+					"-fvisibility-inlines-hidden",
+					"'-DSMTG_RENAME_ASSERT=1'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libbase.a,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+					"-framework",
+					Cocoa,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+				);
+				OTHER_REZFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = vst23host_test_app.app/Contents/Headers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = vst23host_test_app.app/Contents/Headers;
+				SDKROOT = macosx;
+				SYMROOT = build;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+				);
+				USE_HEADERMAP = NO;
+				VST2_SDK_PATH = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2\"";
+				VST3_SDK_PATH = /Users/dpazel/opensource/vst3git1/vst3sdk;
+				VST3_SDK_PATH_PUBLIC = /Users/dpazel/opensource/vst3git1/vst3sdk/public.sdk/source;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		380E5FCA22074C98009250A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXECUTABLE_SUFFIX = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = /Users/dpazel/opensource/vst3git/vst3sdk;
+				INFOPLIST_FILE = vst23host_test_app/Info.plist;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fvisibility=hidden",
+					"'-DDEVELOPMENT=1'",
+					"-fvisibility-inlines-hidden",
+					"'-DSMTG_RENAME_ASSERT=1'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libbase.a,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+					"-framework",
+					Cocoa,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+				);
+				OTHER_REZFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = vst23host_test_app.app/Contents/Headers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = vst23host_test_app.app/Contents/Headers;
+				SDKROOT = macosx;
+				SYMROOT = build;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+				);
+				USE_HEADERMAP = NO;
+				VST2_SDK_PATH = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2\"";
+				VST3_SDK_PATH = /Users/dpazel/opensource/vst3git1/vst3sdk;
+				VST3_SDK_PATH_PUBLIC = /Users/dpazel/opensource/vst3git1/vst3sdk/public.sdk/source;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		38A1C4B621C8720A00587F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/include/python3.6m;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/include/python3.6m;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+				);
+				VST2_SDK_PATH = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2\"";
+				VST2_SDK_PATH_PUBLIC = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2/public.sdk/source\"";
+				VST3_SDK_PATH = /Users/dpazel/opensource/vst3git1/vst3sdk;
+				VST3_SDK_PATH_PUBLIC = /Users/dpazel/opensource/vst3git1/vst3sdk/public.sdk/source;
+			};
+			name = Debug;
+		};
+		38A1C4B721C8720A00587F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/include/python3.6m;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/include/python3.6m;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+				);
+				VST2_SDK_PATH = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2\"";
+				VST2_SDK_PATH_PUBLIC = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2/public.sdk/source\"";
+				VST3_SDK_PATH = /Users/dpazel/opensource/vst3git1/vst3sdk;
+				VST3_SDK_PATH_PUBLIC = /Users/dpazel/opensource/vst3git1/vst3sdk/public.sdk/source;
+			};
+			name = Release;
+		};
+		38A1C4B921C8720A00587F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/include/python3.7m/,
+					/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/include/python3.6m,
+				);
+				INIT_CLASS_IID = 1;
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/config-3.6m-darwin/libpython3.6.a",
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libbase.a,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_FLAGS = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+					"$(VST2_SDK_PATH_PUBLIC)",
+				);
+				USE_HEADERMAP = YES;
+				VST2_SDK_PATH = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2\"";
+				VST3_SDK_PATH = /Users/dpazel/opensource/vst3git1/vst3sdk;
+				VST3_SDK_PATH_PUBLIC = /Users/dpazel/opensource/vst3git1/vst3sdk/public.sdk/source;
+			};
+			name = Debug;
+		};
+		38A1C4BA21C8720A00587F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/include/python3.7m/,
+					/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/include/python3.6m,
+				);
+				INIT_CLASS_IID = 1;
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/config-3.6m-darwin/libpython3.6.a",
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libbase.a,
+					/Users/dpazel/opensource/vst3git/build/lib/Debug/libsdk.a,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_FLAGS = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(VST3_SDK_PATH)",
+					"$(VST3_SDK_PATH_PUBLIC)",
+					"$(VST2_SDK_PATH)",
+					"$(VST2_SDK_PATH_PUBLIC)",
+				);
+				USE_HEADERMAP = YES;
+				VST2_SDK_PATH = "\"/Users/dpazel/opensource/vst3/VST3 SDK 2\"";
+				VST3_SDK_PATH = /Users/dpazel/opensource/vst3git1/vst3sdk;
+				VST3_SDK_PATH_PUBLIC = /Users/dpazel/opensource/vst3git1/vst3sdk/public.sdk/source;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3808854321D3F95900E2CCFB /* Build configuration list for PBXNativeTarget "VSTUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3808854121D3F95900E2CCFB /* Debug */,
+				3808854221D3F95900E2CCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380E5FC822074C98009250A1 /* Build configuration list for PBXNativeTarget "vst23host_test_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380E5FC922074C98009250A1 /* Debug */,
+				380E5FCA22074C98009250A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A1C4AA21C8720A00587F4A /* Build configuration list for PBXProject "vst23host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A1C4B621C8720A00587F4A /* Debug */,
+				38A1C4B721C8720A00587F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A1C4B821C8720A00587F4A /* Build configuration list for PBXNativeTarget "vst23host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A1C4B921C8720A00587F4A /* Debug */,
+				38A1C4BA21C8720A00587F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38A1C4A721C8720A00587F4A /* Project object */;
+}
