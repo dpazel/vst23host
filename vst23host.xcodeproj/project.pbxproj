@@ -100,6 +100,7 @@
 		3877AEBA22EDFA75005B9CD9 /* vst3hosting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vst3hosting.hpp; sourceTree = "<group>"; };
 		3877AEBF22EFA5A4005B9CD9 /* vst3hosting.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = vst3hosting.mm; sourceTree = "<group>"; };
 		3881DBDE21EE25F7008A0AC5 /* usediids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usediids.cpp; sourceTree = "<group>"; };
+		38932EE724B4B52600D0F432 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		38A1C4AF21C8720A00587F4A /* libvst23host */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libvst23host; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A1C4CC21C8748600587F4A /* vst2host.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vst2host.cpp; sourceTree = "<group>"; };
 		38A1C4CE21C8748C00587F4A /* vst2host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vst2host.h; sourceTree = "<group>"; };
@@ -196,6 +197,7 @@
 		38A1C4A621C8720A00587F4A = {
 			isa = PBXGroup;
 			children = (
+				38932EE724B4B52600D0F432 /* README.md */,
 				386B93FE2285C465002ABD83 /* python_interface */,
 				38946AF721D67226007BF9BF /* vst3 */,
 				38A1C4DE21C8772700587F4A /* objc */,
